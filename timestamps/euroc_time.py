@@ -29,11 +29,11 @@ if renameGoFormat == "y":
 		onlyFilesRename.append(start)
 		increment = Decimal("0.058064") #The increment to increase the value of the file name
 		start += increment
+	print("Rename - Done")
 else: 
 	for j in onlyFiles: 
 		onlyFilesRename.append(j)
-
-print("Rename - Done")
+	print("Rename - Not Executed")
 
 #Takes file names without extensions
 newOnlyFiles = []
