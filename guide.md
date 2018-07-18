@@ -62,7 +62,7 @@ From the OpenCV camer_calibration directory copy the "in_VID5.xml" and "out_came
 ```
 
 ## Video Directories
-Only the TUM and EuRoC formats require video directories. The webcam will take its input from the connected webcam and this can most likely be editted in the "mono_webcam.cc" file or by changing the webcam used although I did not get a chance to test this. <br />
+Only the TUM and EuRoC formats require video directories. The webcam will take its input from the connected webcam and this can most likely be editted in the "mono_webcam.cc" file by changing the webcam ID although I did not get a chance to test this. <br />
 
 For both TUM and EuRoC the video needs to be converted into individual frames and a timestamp file needs to be created. To turn it into individual frames, I used VLC although any method will work. With VLC, navigate to ```C:\Program Files (x86)\VideoLAN\VLC``` or wherever the vlc.exe file is located in the command line. Then run the following command:
 ```
